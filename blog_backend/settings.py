@@ -144,11 +144,11 @@ USE_TZ = True
 
 #STATIC_URL = '/static/'
 
-REACT_APP_DIR = os.path.join(BASE_DIR, 'blog_frontend') 
+#REACT_APP_DIR = os.path.join(BASE_DIR, 'blog_frontend') 
 
-STATICFILES_DIRS = [
-    os.path.join(REACT_APP_DIR, 'build', 'static'),
-]
+# STATICFILES_DIRS = [
+#     os.path.join(REACT_APP_DIR, 'build', 'static'),
+# ]
 
 SITE_ID = 1
 REST_USE_JWT = True
