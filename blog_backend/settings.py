@@ -68,7 +68,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ORIGIN_WHITELIST = (
-    'localhost:3000/'
+    'https://connect-cbit.herokuapp.com/'
 )
 
 ROOT_URLCONF = 'blog_backend.urls'
